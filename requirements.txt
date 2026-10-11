@@ -1,0 +1,4 @@
+# Klarixa NeuroHaptic OS - Dependencias
+# Por ahora usamos la librería estándar de Python.
+# Añadiremos numpy y pandas en la Fase 2 para el entrenamiento de ML.
+numpy>=1.24.0
