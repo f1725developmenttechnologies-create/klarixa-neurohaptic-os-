@@ -1,4 +1,4 @@
-# 🪰 Klarixa Fly Brain Architecture (Nonacortex 5-3-1)
+8# 🪰 Klarixa Fly Brain Architecture (Nonacortex 5-3-1)
 
 ## 1. Visión Biomimética
 La arquitectura **Klarixa NeuroHaptic OS** no se basa en modelos de lenguaje monolíticos de alta latencia. Está inspirada en la topología computacional más eficiente de la naturaleza: **el sistema nervioso de los insectos (Fly Brain)**. 
@@ -33,6 +33,48 @@ Esta arquitectura se materializa en los siguientes módulos del repositorio:
 
 ## 5. Conclusión
 Klarixa NeuroHaptic OS no es solo un software de control robótico. Es la **digitalización de la delicadeza biológica**. Al adoptar la topología del Fly Brain, construimos la base para la próxima generación de robots de servicio: mesoneros, enfermeros y estilistas que operan con la precisión, eficiencia y seguridad de la naturaleza.
+
+---
+*Built for the Nebius x NVIDIA Global AI Hackathon 2026.*
+*License: Apache 2.0*
+
+
+
+#  Klarixa Fly Brain Architecture (Nonacortex 5-3-1)
+
+## 1. Biomimetic Vision
+The **Klarixa NeuroHaptic OS** architecture is not based on high-latency monolithic language models. It is inspired by the most efficient computational topology in nature: **the insect nervous system (Fly Brain)**. 
+
+A fly can land on a cup of boiling coffee without spilling it or getting burned, processing optical flow, thermodynamics, and proximity in milliseconds with minimal energy expenditure. Klarixa replicates this capability through the **Nonacortex 5-3-1**, a distributed Edge AI system that prioritizes survival, delicacy, and zero latency.
+
+## 2. Anatomical Mapping: Biology vs. Nonacortex
+
+| Insect Brain Anatomy | Klarixa Module (Code) | System Function |
+| :--- | :--- | :--- |
+| **Optic Lobe** | `ContextSensorBridge` (Optical) | Processes light, visual fatigue, and spatial flow. |
+| **Antennae / Mechanoreceptors** | `ContextSensorBridge` (Thermal/Proximity) | Detects heat (fever/hot liquids) and obstacle distance. |
+| **Central Complex** | `UnifiedRouter` | Fuses sensory data and calculates motor trajectories. |
+| **Giant Fiber System (Escape)**| `HazardAvoidanceSystem` | **Overrides** commands in <10ms upon danger detection (e.g., hot cup + person). |
+| **Mushroom Body (Memory)** | `LearningMemory` | Forgets errors (extinction) and clones successes (synaptic reinforcement). |
+| **Thoracic Ganglia (Motors)** | `BiomechanicalMapper` | Translates intention into Newtons of force and smooth kinematics. |
+
+## 3. Technical Implementation in Code
+
+This architecture is materialized in the following modules of the repository:
+
+1. **Multimodal Sensor Fusion (`context_bridge.py`)**: Acts as the system's antennae and eyes. Unifies thermal, optical, and proximity data into a single "Context Package".
+2. **Escape Reflex (`hazard_avoidance.py`)**: The equivalent of the Giant Fiber. Intercepts motor output. If it detects a fragile/hot object and a dynamic obstacle, it hijacks control and forces a speed of 0.05 m/s.
+3. **Unified Router (`unified_router.py`)**: The Central Complex. Weighs human biometrics (keystroke) against environmental context. If there is a discrepancy (e.g., calm user but with a fever), it activates "Caregiver Mode".
+4. **Synaptic Plasticity (`learning_memory.py`)**: The system forgets routes that cause errors and clones successful routes, optimizing token and energy consumption.
+
+## 4. Strategic Advantage for Physical AI (NVIDIA / Nebius)
+
+*   **Sovereign Edge Computing (KSHIELD):** Just as an insect doesn't need to "think" in the cloud to dodge a predator, the Nonacortex processes physical safety locally. Zero latency, zero cloud dependency for critical actions.
+*   **Energy Efficiency:** The Nonacortex 5-3-1 activates the 9 "brains" (Nemotron, GROOT, Cosmos) only when task complexity requires it. Routine tasks are handled by quantized models at the edge.
+*   **Swarm Scalability (Project 16):** This topology is native for drones and mobile robots. It allows multiple agents to operate in shared spaces without colliding, mimicking swarm flight.
+
+## 5. Conclusion
+Klarixa NeuroHaptic OS is not just robotic control software. It is the **digitalization of biological delicacy**. By adopting the Fly Brain topology, we build the foundation for the next generation of service robots: waiters, nurses, and stylists that operate with the precision, efficiency, and safety of nature.
 
 ---
 *Built for the Nebius x NVIDIA Global AI Hackathon 2026.*
